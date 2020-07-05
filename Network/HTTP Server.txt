@@ -1,0 +1,5 @@
+HTTP keep-alive
+
+By default form HTTP/1.1
+
+avoids 3 way TCP handshake on each new request from same client. Configured on basis of time and numRequests from client.
